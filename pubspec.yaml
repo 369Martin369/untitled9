@@ -28,6 +28,9 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  googleapis: ^9.0.0
+  googleapis_auth: ^1.4.0
+  http: ^0.13.5  # Füge diese Zeile hinzu
   flutter:
     sdk: flutter
   flutter_blue: ^0.8.0 # Füge dies hinzu, wenn du flutter_blue verwendest
